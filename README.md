@@ -2,7 +2,9 @@
 Script change bad marks (2,3) on good marks, delete all remarks and create praises.
 # How to install
 Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
-
+```bash
+$ pip install -r requirements.txt
+```
 Download script in directory near **manage.py** and open *shell*
 ```bash
 $ python3 manage.py shell
